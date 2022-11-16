@@ -1,0 +1,33 @@
+body {
+  background-color: orange;
+}
+
+.content {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+
+button {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+#minutes,
+#seconds,
+#tens {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.buttons {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
